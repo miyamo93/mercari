@@ -7,4 +7,12 @@ class TweetsController < ApplicationController
 
   def new
   end
+
+  def sell
+    @product = ""
+  end
+
+  def image
+    @product = ""
+  end
 end

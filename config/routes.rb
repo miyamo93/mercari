@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root to:   'tweets#index'
   get   'tweets'      =>  'tweets#create'
   get   'tweets'      =>  'tweets#new'
-  
+  get   'sell' =>  'tweets#sell'
+  get   'image' =>  'tweets#image'
 end
