@@ -56,6 +56,12 @@
                   height: 162px;
                   width: 620px;
                   border: 1px dashed #ccc;
+                  input{
+                      outline: 0;
+                      border: 0;
+                      height: 100%;
+                      width: 100%;
+                  }
                 }
                 .drop-box-item-text {
                   padding: 40px;

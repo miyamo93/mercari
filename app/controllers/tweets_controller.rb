@@ -9,5 +9,10 @@ class TweetsController < ApplicationController
   end
 
   def sell
+    @product = ""
+  end
+
+  def image
+    @product = ""
   end
 end
