@@ -64,3 +64,4 @@ gem 'kaminari', '~> 0.17.0'
 gem 'haml-rails'
 gem 'devise'
 gem 'font-awesome-sass', '~> 5.4.1'
+gem "dropzonejs-rails"
